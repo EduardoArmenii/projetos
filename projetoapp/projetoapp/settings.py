@@ -33,6 +33,10 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'orders.apps.OrdersConfig',
+    'clients.apps.ClientsConfig',
+    'socialnetworks.apps.SocialnetworksConfig',
+    'products.apps.ProductsConfig',
     'rest_framework',
     'django.contrib.admin',
     'django.contrib.auth',
